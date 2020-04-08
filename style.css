@@ -15,27 +15,34 @@ body {
 
 
 
-#main {
- //margin: 0 0 0 160px;
- margin: auto;
- height: 100%;
- border: 00px solid ;
- //max-width:29cm;
- //min-width:20cm;
- overflow-y: scroll;
- overflow-x: scroll;
 
- min-height: 5cm;
- //max-width: 5cm;
+.obsah {
+	width: 20cm;
+	height:100vh;
+	display:block;
+	margin:auto;
+	max-width:100vw;
+	position: relative; /* kvoli suhre s .center*/
 }
 
-/*
-#main img{
- min-height: 12cm;
- width: 100%;
+.center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-*/
 
+.zastavenie {
+	#height:90vh;
+	#width:31.5vh;
+	height:100vh;
+	width:35vh;
+	display:block;
+	margin:auto;
+	#max-width:100vw;
+	position: relative; /* kvoli suhre s .center*/
+}
 
 .left {
  float: left;
@@ -55,37 +62,22 @@ body {
 
 
 
-/*
-img {
- display:block;
-}
 */
 .img1 {
- /*height: auto;*/
- /*height: 99%;*/
- height: 99vh;
- /*width: 99%;*/
- /*max-width: 559px;*/
- /*max-width: 15cm;*/
- /*min-width: 450px;*/
- overflow-x: scroll;
+ width: 100%;
+ #overflow-x: scroll;
  display:block;
  margin: auto;
- float:left
-}
-.img2 {
- display:block;
 }
 
 .img_obsah {
- /* position: absolute; prekryvanie obrazku na pozadi */
- padding-left: 0.5cm;
- padding-bottom: 0.4cm;
- width: 80%;
- /*max-width: 559px;*/
- /*max-width: 15cm;*/
+ #width: 13.8vw;
+ width: 6.9%;
+ #height: 40%;
  display:block;
-}>
+ margin:auto;
+ float:left;
+}
 
 /*
 @media screen and(-webkit-min-device-pixel-ratio: 1) {
@@ -95,30 +87,11 @@ img {
 }
 */
 
-@media  (max-resolution:120dpi) {
+@media  (min-resolution:120dpi) {
  /* thinkpad x200: 96, xiaomi A1: 288
   */
- .img1 {
- max-width: 559px;
- min-width: 450px
- }
-}
-
-
-@media screen and (max-width: 900px) {
-  .stlpec {
-    flex: 100%;
-    max-width: 600px;
-  }
-}
-
-@media screen and (min-height: 15) {
- #main {
-  margin: auto;
-  border: 10px solid ;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: scroll;
+ .img_obsah {
+	 width:13.8%;
  }
 }
 
