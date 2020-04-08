@@ -34,11 +34,13 @@ body {
 }
 
 .zastavenie {
-	height:90vh;
-	width:31.5vh;
+	#height:90vh;
+	#width:31.5vh;
+	height:100vh;
+	width:35vh;
 	display:block;
 	margin:auto;
-	max-width:100vw;
+	#max-width:100vw;
 	position: relative; /* kvoli suhre s .center*/
 }
 
@@ -60,23 +62,12 @@ body {
 
 
 
-/*
-img {
- display:block;
-}
 */
 .img1 {
- /*height: auto;*/
- /*height: 99%;*/
- height: 99vh;
- /*width: 99%;*/
- /*max-width: 559px;*/
- /*max-width: 15cm;*/
- /*min-width: 450px;*/
- overflow-x: scroll;
+ width: 100%;
+ #overflow-x: scroll;
  display:block;
  margin: auto;
- float:left
 }
 
 .img_obsah {
