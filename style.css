@@ -99,5 +99,9 @@ body {
  .img_obsah {
 	 width:13.8%;
  }
+ .zastavenie {
+	 height: 200vh;
+	 width:70vh;
+ }
 }
 
