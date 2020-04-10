@@ -99,8 +99,12 @@ body {
  .img_obsah {
 	 width:13.8%;
  }
+}
+
+@media  (min-resolution:120dpi) {
+ /* thinkpad x200: 96, xiaomi A1: 288
+  */
  .zastavenie {
 	 width:90%;
  }
 }
-
